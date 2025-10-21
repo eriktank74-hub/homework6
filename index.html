@@ -22,14 +22,14 @@
             <a class="header-logo" href="./index.html">
                 WEB<span class="logo-studio">Studio</span>
             </a>
+            <svg class="header-menu-icon" width="16" height="14">
+                <use href="./images/user.svg#icon-menu"></use>
+            </svg>
             <ul class="header-menu-list">
                 <li class="header-menu-item"><a class="header-menu-link header-link-studio" href="./index.html">Studio</a></li>
                 <li class="header-menu-item"><a class="header-menu-link header-link-porfolio" href="">Portfolio</a></li>
                 <li class="header-menu-item"><a class="header-menu-link header-link-contacts" href="">Contacts</a></li>
             </ul>
-            <svg class="header-menu-icon" width="16" height="14">
-                <use href="./images/user.svg#icon-menu"></use>
-            </svg>
         </nav>
         <address class="header-contacts">
             <ul class="header-contacts-list">
@@ -108,7 +108,7 @@
             <ul class="team-list">
                 <li class="team-item">
                     <img class="img-people" src="./images/card1.jpg" alt="Mark Guerrero" width="264" />
-                    <div class="img-wrapper-container">
+                    <div class="img-wrapper-container-people">
                         <h3 class="team-name-subtitle">Mark Guerrero</h3>
                         <p class="team-work-descrition">Product Designer</p>
                         <ul class="team-social-icons">
@@ -145,7 +145,7 @@
                 </li>
                 <li class="team-item">
                     <img class="img-people" src="./images/card2.jpg" alt="Tom Ford" width="264" />
-                    <div class="img-wrapper-container">
+                    <div class="img-wrapper-container-people">
                         <h3 class="team-name-subtitle">Tom Ford</h3>
                         <p class="team-work-descrition">Frontend Developer</p>
                         <ul class="team-social-icons">
@@ -182,7 +182,7 @@
                 </li>
                 <li class="team-item">
                     <img class="img-people" src="./images/card3.jpg" alt="Camila Garcia" width="264" />
-                    <div class="img-wrapper-container">
+                    <div class="img-wrapper-container-people">
                         <h3 class="team-name-subtitle">Camila Garcia</h3>
                         <p class="team-work-descrition">Marketing</p>
                         <ul class="team-social-icons">
@@ -219,7 +219,7 @@
                 </li>
                 <li class="team-item">
                     <img class="img-people" src="./images/card4.jpg" alt="Daniel Wilson" width="264" />
-                    <div class="img-wrapper-container">
+                    <div class="img-wrapper-container-people">
                         <h3 class="team-name-subtitle">Daniel Wilson</h3>
                         <p class="team-work-descrition">UI Designer</p>
                         <ul class="team-social-icons">
@@ -402,6 +402,53 @@
       </div>
     </div>
 </footer>
+<div class="fullscreen-menu" display = 'none'> 
+            <svg class="fullscreen-menu-close-icon" width="8" height="8">
+                <use href="./images/user.svg#icon-x"></use>
+            </svg>
+        
+             <div class="fullscreen-menu-container">
+                <ul class="s">
+                    <li class="header-menu-item-menu"><a class="header-menu-link header-link-studio-menu" href="./index.html">Studio</a></li>
+                    <li class="header-menu-item-menu"><a class="header-menu-link header-link-porfolio" href="">Portfolio</a></li>
+                    <li class="header-menu-item-menu"><a class="header-menu-link header-link-contacts" href="">Contacts</a></li>
+                </ul>
+                <ul class="fullscreen-menu-contacts-list">
+                    <li class="header-contacts-item"><a class="header-contacts-link-menu" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+                    <li class="header-contacts-item"><a class="header-contacts-link-menu" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                </ul>
+            <ul class="fullscreen-menu-social-list">
+                <li class="fullscreen-menu-social-item">
+                    <a class="fullscreen-menu-social-link" href="">
+                        <svg class="fullscreen-menu-social-icon" width="24" height="24">
+                            <use href="./images/icons.svg#icon-instagram"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="fullscreen-menu-social-item">
+                    <a class="fullscreen-menu-social-link" href="">
+                        <svg class="fullscreen-menu-social-icon" width="24" height="24">
+                            <use href="./images/icons.svg#icon-twitter"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="fullscreen-menu-social-item">
+                    <a class="fullscreen-menu-social-link" href="">
+                        <svg class="fullscreen-menu-social-icon" width="24" height="24">
+                            <use href="./images/icons.svg#icon-facebook"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="fullscreen-menu-social-item">
+                    <a class="fullscreen-menu-social-link" href="">
+                        <svg class="fullscreen-menu-social-icon" width="24" height="24">
+                            <use href="./images/icons.svg#icon-linkedin"></use>
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+    </div>
+</div>
 <div class="backdrop-container" style="display: none;">
     <div class="modal">
         <button type="button" class="modal-close-btn">
